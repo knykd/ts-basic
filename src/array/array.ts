@@ -31,5 +31,11 @@ export default function arraySample() {
   someArray.push(456)
   // NG
   // someArray.push(true)
-  console.log("Array array sample4:", someArray) 
+  console.log("Array array sample4:", someArray)
+
+  const commands: readonly string[] = ["git add", "git commit", "git push"]
+  // NG
+  // commands.push("git fetch")
+  // commands[2] = "git pull"
+  console.log("Array array sample5:", commands)
 }
