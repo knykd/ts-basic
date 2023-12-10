@@ -27,4 +27,6 @@
 // typeAliasSample()
 
 import arraySample from './array/array'
+import arrayTupleSample from './array/tuple'
 arraySample()
+arrayTupleSample()
