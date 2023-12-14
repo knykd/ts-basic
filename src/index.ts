@@ -31,7 +31,16 @@
 // arraySample()
 // arrayTupleSample()
 
-import genericsBasicSample from "./generics/basic"
-import genericsAdvancedSample from "./generics/advanced"
-genericsBasicSample()
-genericsAdvancedSample()
+// import genericsBasicSample from "./generics/basic"
+// import genericsAdvancedSample from "./generics/advanced"
+// genericsBasicSample()
+// genericsAdvancedSample()
+
+// import callbackSample from "./asynchronous/callback"
+// callbackSample()
+
+// import promiseSample from "./asynchronous/promise"
+// promiseSample()
+
+import asyncAwaitSample from "./asynchronous/asyncAwait"
+asyncAwaitSample()
